@@ -26,16 +26,18 @@ def get_tag():
     return type_list
 
 
+# 拼接标签url
 def get_subject_url(tag, start):
     return "https://book.douban.com/tag/" + parse.quote(tag) + "?start=" + str(start) + "&type=T"
 
 
+# 处理页面 -- 打印出爬取到的数据
 def subject_handle(tag, start):
     url = get_subject_url(tag, start)
     soup = get_soup(url)
 
     if soup is None:
-        print("Warn::Can't get the tag soup, requst url:" + url)
+        print("Warn::Can't get the tag soup, request url:" + url)
         return
 
     subject_item_list = soup.find_all("li", class_="subject-item")
@@ -57,6 +59,7 @@ def subject_handle(tag, start):
     return True
 
 
+# 按每个tag分别爬取，20条每页
 def parse_for_tag(tag):
     start = 0
     while True:
@@ -66,6 +69,7 @@ def parse_for_tag(tag):
         start += 20
 
 
+# 启动方法
 def main_runner():
     ssl_init()
 
