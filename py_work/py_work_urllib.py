@@ -2,6 +2,8 @@ import ssl
 from urllib import request, parse
 from bs4 import BeautifulSoup
 
+# todo version 2.0 -- 爬取代理ip生成ProxyPool, 通过proxyPool发送爬取请求, 主要改造get_soup()函数
+
 # 设置ssl -- 兼容urllib发送https请求
 def ssl_init():
     ssl._create_default_https_context = ssl._create_unverified_context
