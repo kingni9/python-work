@@ -3,25 +3,45 @@ from urllib import request, parse
 from bs4 import BeautifulSoup
 
 # todo version 2.0 -- 爬取代理ip生成ProxyPool, 通过proxyPool发送爬取请求, 主要改造get_soup()函数
-proxy_pool = ["http://180.104.63.114:9000",
-              "http://115.223.214.228:9000",
-              "http://58.217.14.251:9000",
-              "http://114.101.45.27:63909",
-              "http://183.147.222.121:9000",
-              "http://115.223.221.134:9000",
-              "http://115.223.245.41:9000",
-              "http://112.240.181.121:9000"]
+proxy_pool = []
 
 # 设置ssl -- 兼容urllib发送https请求
 def ssl_init():
     ssl._create_default_https_context = ssl._create_unverified_context
 
-# 请求url 返回html被BeautifulSoup解析生成的对象
-def get_soup(url):
+def init_proxy_pool(scan_pages):
+    for page in range(3, scan_pages + 1):
+        try:
+            url = "https://www.kuaidaili.com/free/inha/" + str(page)
+
+            soup = get_soup(url)
+            table = soup.find("table", class_="table table-bordered table-striped")
+            if table is not None:
+                tr_list = table.find_all("tr")
+                if len(tr_list) > 0:
+                    for tr in tr_list:
+                        td_list = tr.find_all("td")
+
+                        if len(td_list) > 0:
+                            proxy_url = "http://" + str(td_list[0].get_text()) + ":" + str(td_list[1].get_text())
+                            if proxy_url not in proxy_pool:
+                                print("Get Proxy Url Success::" + proxy_url)
+                                proxy_pool.append(proxy_url)
+        except Exception:
+            pass
+
+# 根据代理池的对象发送请求
+def get_proxy_soup(url):
     global proxy_pool
-    proxy_handler = request.ProxyHandler({"http":proxy_pool[random.randint(0, 7)]})
+    proxy_handler = request.ProxyHandler({"http":proxy_pool[random.randint(0, (len(proxy_pool) - 1))]})
     req_result = request.build_opener(proxy_handler).open(url)
 
+    # req_result = request.urlopen(url)
+    return BeautifulSoup(req_result.read().decode("utf-8"), "html.parser")
+
+# 请求url 返回html被BeautifulSoup解析生成的对象
+def get_soup(url):
+    req_result = request.urlopen(url);
     # req_result = request.urlopen(url)
     return BeautifulSoup(req_result.read().decode("utf-8"), "html.parser")
 
@@ -86,6 +106,13 @@ def parse_for_tag(tag):
 # 启动方法
 def main_runner():
     ssl_init()
+    init_proxy_pool(50)
+
+    if len(proxy_pool) < 50:
+        print("Scan Proxy Pool Failed::Pool size litter then 50")
+        return
+
+    print("Get Total Proxy Pool Size:::" + str(len(proxy_pool)))
 
     tag_list = get_tag()
     if len(tag_list) > 0:
@@ -95,4 +122,3 @@ def main_runner():
 
 
 main_runner()
-
