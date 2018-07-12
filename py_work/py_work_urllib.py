@@ -1,8 +1,16 @@
-import ssl
+import ssl, random
 from urllib import request, parse
 from bs4 import BeautifulSoup
 
 # todo version 2.0 -- 爬取代理ip生成ProxyPool, 通过proxyPool发送爬取请求, 主要改造get_soup()函数
+proxy_pool = ["http://180.104.63.114:9000",
+              "http://115.223.214.228:9000",
+              "http://58.217.14.251:9000",
+              "http://114.101.45.27:63909",
+              "http://183.147.222.121:9000",
+              "http://115.223.221.134:9000",
+              "http://115.223.245.41:9000",
+              "http://112.240.181.121:9000"]
 
 # 设置ssl -- 兼容urllib发送https请求
 def ssl_init():
@@ -10,7 +18,11 @@ def ssl_init():
 
 # 请求url 返回html被BeautifulSoup解析生成的对象
 def get_soup(url):
-    req_result = request.urlopen(url)
+    global proxy_pool
+    proxy_handler = request.ProxyHandler({"http":proxy_pool[random.randint(0, 7)]})
+    req_result = request.build_opener(proxy_handler).open(url)
+
+    # req_result = request.urlopen(url)
     return BeautifulSoup(req_result.read().decode("utf-8"), "html.parser")
 
 # 获取所有书签信息
