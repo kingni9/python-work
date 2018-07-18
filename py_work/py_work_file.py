@@ -1,9 +1,8 @@
 import os
 
-# 统计项目设计包裹表总记录数
+# 统计项目涉及包裹表总记录数
 files = set()
-pt_order_package = "pt_order_package"
-pt_order_package_btl = "pt_order_package_btl"
+tbl_keys = ["pt_order_package", "pt_order_package_btl"]
 
 def scan(inner_path):
     if os.path.isdir(inner_path):
@@ -12,7 +11,7 @@ def scan(inner_path):
 
     else:
         if inner_path.endswith(".java") or inner_path.endswith(".xml"):
-            parse(inner_path, [pt_order_package, pt_order_package_btl])
+            parse(inner_path, tbl_keys)
 
 def parse(file_path, keys):
     with open(file_path, "r") as file:
@@ -25,7 +24,7 @@ def parse(file_path, keys):
             line = file.readline()
 
 def main():
-    dir_path = "/Users/zhuangjt/Documents/gitResource/quote-service"
+    dir_path = "/Users/zhuangjt/Documents/gitResource/logistics-api"
     scan(dir_path)
 
     if len(files) > 0:
