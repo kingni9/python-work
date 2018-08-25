@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c95a6d82-8e1b-4b30-a965-32e1e8464fd1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/py_work/py_work_file.py" afterPath="$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,27 +17,33 @@
     <SUITE FILE_PATH="coverage/python_main$py_work_matplotlib.coverage" NAME="py_work_matplotlib Coverage Results" MODIFIED="1531812574042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$py_work_sql_parser.coverage" NAME="py_work_sql_parser Coverage Results" MODIFIED="1534125406915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$test.coverage" NAME="test Coverage Results" MODIFIED="1531044348813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_main$py_work_file.coverage" NAME="py_work_file Coverage Results" MODIFIED="1533222193312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$py_work_file.coverage" NAME="py_work_file Coverage Results" MODIFIED="1535170379191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1531044426033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$py_work_urllib.coverage" NAME="py_work_urllib Coverage Results" MODIFIED="1531570119414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="py_work_file.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+      <file leaf-file-name="py_work_table_finder.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+                <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+                <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+                <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="py_work_urllib.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+      <file leaf-file-name="typing.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/typing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="219">
+              <caret line="2290" column="8" lean-forward="false" selection-start-line="2290" selection-start-column="8" selection-end-line="2290" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -54,11 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sqlite3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/_sqlite3.py">
+      <file leaf-file-name="python_main.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_main.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12478">
-              <caret line="734" column="8" lean-forward="false" selection-start-line="734" selection-start-column="8" selection-end-line="734" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="py_work_urllib.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -88,6 +105,7 @@
       <find>-api</find>
       <find>strip</find>
       <find>range</find>
+      <find>len</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,8 +126,9 @@
         <option value="$PROJECT_DIR$/ssl_setting.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_urllib.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_matplotlib.py" />
-        <option value="$PROJECT_DIR$/py_work/py_work_file.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_sql_parser.py" />
+        <option value="$PROJECT_DIR$/py_work/py_work_file.py" />
+        <option value="$PROJECT_DIR$/py_work/py_work_table_finder.py" />
       </list>
     </option>
   </component>
@@ -137,10 +156,10 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Xmx1024m" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -539,8 +558,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -557,8 +578,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,7 +606,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.py_work_sql_parser">
+  <component name="RunManager" selected="Python.py_work_file">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -641,7 +660,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_table_finder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -752,8 +771,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.py_work_sql_parser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.py_work_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python.py_work_file" />
+        <item index="1" class="java.lang.String" itemvalue="Python.py_work_sql_parser" />
         <item index="2" class="java.lang.String" itemvalue="Python.py_work_matplotlib" />
         <item index="3" class="java.lang.String" itemvalue="Python.py_work_urllib" />
       </list>
@@ -784,14 +803,17 @@
       <workItem from="1533221971869" duration="1241000" />
       <workItem from="1533891693661" duration="5199000" />
       <workItem from="1534427326488" duration="515000" />
+      <workItem from="1534496450749" duration="360000" />
+      <workItem from="1535018818175" duration="944000" />
+      <workItem from="1535092181611" duration="9721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50521000" />
+    <option name="totallyTimeSpent" value="61546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -803,17 +825,17 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21530758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7467811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52492666" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3929619" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -836,7 +858,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52492666" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3929619" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -844,8 +866,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21530758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7467811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -867,16 +889,58 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_sql_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/_sqlite3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12478">
+          <caret line="734" column="8" lean-forward="false" selection-start-line="734" selection-start-column="8" selection-end-line="734" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12478">
           <caret line="734" column="8" lean-forward="false" selection-start-line="734" selection-start-column="8" selection-end-line="734" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,17 +963,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1534127293518" expanded="true" signature="28:428" ph="INSERT INTO pt_logistics_receipt_record... " />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="110" column="10" lean-forward="false" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80495">
+          <caret line="4735" column="8" lean-forward="false" selection-start-line="4735" selection-start-column="8" selection-end-line="4735" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -929,19 +1024,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="110" column="10" lean-forward="false" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,11 +1045,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,26 +1066,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80495">
-          <caret line="4735" column="8" lean-forward="false" selection-start-line="4735" selection-start-column="8" selection-end-line="4735" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,13 +1194,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_work/subject.html" />
-    <entry file="file://$PROJECT_DIR$/python_main.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssl_setting.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1152,14 +1235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12478">
           <caret line="734" column="8" lean-forward="false" selection-start-line="734" selection-start-column="8" selection-end-line="734" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="219">
+          <caret line="2290" column="8" lean-forward="false" selection-start-line="2290" selection-start-column="8" selection-end-line="2290" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1174,11 +1256,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_file.py">
+    <entry file="file://$PROJECT_DIR$/python_main.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1535170394431" expanded="true" signature="220:392" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:414" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:444" ph="select TABLE... tables" />
+            <marker date="1535170394431" expanded="true" signature="220:1883" ph="select TABLE... tables" />
+          </folding>
         </state>
       </provider>
     </entry>
