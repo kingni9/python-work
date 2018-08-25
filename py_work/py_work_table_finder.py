@@ -47,8 +47,7 @@ def parse_table(file_path):
 
 def main():
     load_tables()
-    dir_path = "/Users/zhuangjt/Documents/gitResource/logistics-api"
-    scan(dir_path)
+    scan("/Users/zhuangjt/Documents/gitResource/logistics-api")
 
     for exists_table in exists_tables:
         print(exists_table)
