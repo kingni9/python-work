@@ -4,28 +4,25 @@ import pymysql
 # 统计项目涉及包裹表总记录数
 tables = set()
 exists_tables = set()
+host = "192.168.0.211"
+user_name = "ops"
+user_password = "123"
+link_db = "information_schema"
+query_db_name = "main"
 
-
+# 加载que_db_name数据库所有表名称 -- 过滤非业务表
 def load_tables():
-    db = pymysql.connect("192.168.0.211","ops","123","information_schema")
+    db = pymysql.connect(host,user_name,user_password,link_db)
     cursor = db.cursor()
-    cursor.execute("select TABLE_NAME from `tables` where `TABLE_SCHEMA` = 'main' "
+    cursor.execute("select TABLE_NAME from `tables` where `TABLE_SCHEMA` = '" + query_db_name + "'"
                    "and TABLE_NAME not like '%_rbak%' "
                    "and TABLE_NAME not like '%copy%'"
                    "and TABLE_NAME not like '%20%'")
 
-    results = cursor.fetchall()
-
-    for table in results:
+    for table in cursor.fetchall():
         tables.add(table[0])
 
-    main_tables_file_path = "/Users/zhuangjt/Documents/main_online_tables.txt"
-    with open(main_tables_file_path, "r") as file:
-        line = file.readline()
-        while line:
-            tables.add(line.strip())
-            line = file.readline()
-
+# 归队扫描目录 -- 非目录文件进行调用parse_table进行表解析 -- 只针对.java/.xml文件
 def scan(inner_path):
     if os.path.isdir(inner_path):
         for file_name in os.listdir(inner_path):
@@ -35,18 +32,18 @@ def scan(inner_path):
         if inner_path.endswith(".java") or inner_path.endswith(".xml"):
             parse_table(inner_path)
 
+# 扫描文件每一行(文件名包含关键字dao/provider/mapper) -- 匹配line是否包含tables中的表名
 def parse_table(file_path):
-    with open(file_path, "r") as file:
-        line = file.readline()
-        while line:
-            for main_table in tables:
-                if line.__contains__(main_table):
-                    file_name = file_path[file_path.rindex("/") + 1 : len(file_path)]
-                    if file_name.lower().__contains__("dao") or file_name.lower().__contains__("provider") or file_name.lower().__contains__("mapper"):
-                        exists_tables.add(main_table)
-                        # print(main_table + " --> " + file_name)
-
+    file_name = file_path[file_path.rindex("/") + 1 : len(file_path)]
+    if file_name.lower().__contains__("dao") or file_name.lower().__contains__("provider") or file_name.lower().__contains__("mapper"):
+        with open(file_path, "r") as file:
             line = file.readline()
+            while line:
+                for main_table in tables:
+                    if line.__contains__(main_table):
+                        exists_tables.add(main_table)
+
+                line = file.readline()
 
 def main():
     load_tables()
