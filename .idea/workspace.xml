@@ -25,16 +25,16 @@
       <file leaf-file-name="py_work_table_finder.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-                <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-                <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-                <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-                <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-                <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+                <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
               </folding>
             </state>
           </provider>
@@ -806,12 +806,12 @@
       <workItem from="1534427326488" duration="515000" />
       <workItem from="1534496450749" duration="360000" />
       <workItem from="1535018818175" duration="944000" />
-      <workItem from="1535092181611" duration="12449000" />
+      <workItem from="1535092181611" duration="12522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64274000" />
+    <option name="totallyTimeSpent" value="64347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="0" />
@@ -901,12 +901,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -939,12 +939,12 @@
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -977,12 +977,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -1008,12 +1008,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -1039,12 +1039,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -1062,12 +1062,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -1085,12 +1085,12 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>
@@ -1289,16 +1289,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1535201581323" expanded="true" signature="358:412" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:414" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:546" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:568" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:598" ph="select TABLE... tables" />
-            <marker date="1535201581323" expanded="true" signature="358:1782" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:412" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:414" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:546" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:568" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:598" ph="select TABLE... tables" />
+            <marker date="1535201660125" expanded="true" signature="358:1782" ph="select TABLE... tables" />
           </folding>
         </state>
       </provider>

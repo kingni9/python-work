@@ -22,7 +22,7 @@ def load_tables():
     for table in cursor.fetchall():
         tables.add(table[0])
 
-# 归队扫描目录 -- 非目录文件进行调用parse_table进行表解析 -- 只针对.java/.xml文件
+# 递归扫描目录 -- 非目录文件进行调用parse_table进行表解析 -- 只针对.java/.xml文件
 def scan(inner_path):
     if os.path.isdir(inner_path):
         for file_name in os.listdir(inner_path):
