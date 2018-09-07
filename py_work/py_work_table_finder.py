@@ -4,11 +4,11 @@ import pymysql
 # 统计项目涉及包裹表总记录数
 tables = set()
 exists_tables = set()
-host = "192.168.0.211"
-user_name = "ops"
-user_password = "123"
+host = "xxx"
+user_name = "xx"
+user_password = "xx"
 link_db = "information_schema"
-query_db_name = "main"
+query_db_name = "boss2.0"
 
 # 加载que_db_name数据库所有表名称 -- 过滤非业务表
 def load_tables():
@@ -47,7 +47,7 @@ def parse_table(file_path):
 
 def main():
     load_tables()
-    scan("/Users/zhuangjt/Documents/gitResource/logistics-api")
+    scan("/Users/zhuangjt/Documents/gitResource/logistics-service")
 
     for exists_table in exists_tables:
         print(exists_table)
