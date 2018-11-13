@@ -1,16 +1,19 @@
 import os
 import pymysql
 
-# 统计项目涉及包裹表总记录数
+# 统计项目涉及包裹表
 tables = set()
 exists_tables = set()
-host = "xxx"
-user_name = "xx"
-user_password = "xx"
+host = "192.168.0.211"
+user_name = "xxx"
+user_password = "xxx"
 link_db = "information_schema"
-query_db_name = "boss2.0"
+# 统计的数据库
+query_db_name = "main"
+# 扫描的本地应用目录
+dir_path = "/Users/zhuangjt/Documents/gitResource/logistics-service"
 
-# 加载que_db_name数据库所有表名称 -- 过滤非业务表
+# 加载数据库所有表名称 -- 过滤非业务表
 def load_tables():
     db = pymysql.connect(host,user_name,user_password,link_db)
     cursor = db.cursor()
@@ -32,7 +35,7 @@ def scan(inner_path):
         if inner_path.endswith(".java") or inner_path.endswith(".xml"):
             parse_table(inner_path)
 
-# 扫描文件每一行(文件名包含关键字dao/provider/mapper) -- 匹配line是否包含tables中的表名
+# 扫描文件每一行(文件名包含关键字dao/provider/) -- 匹mapper配line是否包含tables中的表名
 def parse_table(file_path):
     file_name = file_path[file_path.rindex("/") + 1 : len(file_path)]
     if file_name.lower().__contains__("dao") or file_name.lower().__contains__("provider") or file_name.lower().__contains__("mapper"):
@@ -45,11 +48,13 @@ def parse_table(file_path):
 
                 line = file.readline()
 
-def main():
-    load_tables()
-    scan("/Users/zhuangjt/Documents/gitResource/logistics-service")
-
+def print_exists_tables():
     for exists_table in exists_tables:
         print(exists_table)
+
+def main():
+    load_tables()
+    scan(dir_path)
+    print_exists_tables()
 
 main()

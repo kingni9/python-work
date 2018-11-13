@@ -1,6 +1,6 @@
 # 解析入库冲红数据 #
 
-insert_sql = "INSERT INTO pt_logistics_receipt_record (recordId, packageDetailId, supplierId, supplierName, supplierType, orderId, orderNo, orderDetailId, inbDetailId, poNo, supplierOrderDetailId, saleType, partsCode, partsName, brandName, securityCode, purchasePrice, num, inbNum, isSend, createBy, createTime, updateBy, updateTime, repeatTime, partsBrandName, warehouseId, warehousePositionId, directType) VALUES ";
+insert_sql = "INSERT INTO tms_biz_place (id, biz_place_id, biz_place_name, biz_place_type, parent_id, active, create_time, update_time) VALUE "
 
 
 def main(file_path):
@@ -14,29 +14,14 @@ def main(file_path):
 
 def parse_line(line):
     result = line.split("	")
-    inner_sql = "(null, "
+    inner_sql = "( "
     for i in range(0, len(result)):
-        if i == 0:
-            continue
-
-        if i == (len(result) - 1):
-            inner_sql += "2"
-            continue
-            
-        if i == 16:
-            inner_sql += "\'-" + result[i] + "\', "
-            continue
-
-        if i == 19:
-            inner_sql += "0, "
-            continue
-
-        if result[i].strip() == "" or result[i].strip() == "None":
-            inner_sql += "null, "
-            continue
-
         if result[i].__contains__(":"):
-            inner_sql += "now(), "
+            if i == len(result) - 1:
+                inner_sql += "now()"
+            else:
+                inner_sql += "now(), "
+
             continue
 
         inner_sql += "\'" + result[i] + "\', "
@@ -47,6 +32,6 @@ def parse_line(line):
 
 # parse_line(insert_sql)
 
-main("/Users/zhuangjt/Documents/logistis_record.txt")
+main("/Users/zhuangjt/Documents/sql.txt")
 
 
