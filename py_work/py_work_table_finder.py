@@ -25,6 +25,8 @@ def load_tables():
     for table in cursor.fetchall():
         tables.add(table[0])
 
+    return tables
+
 # 递归扫描目录 -- 非目录文件进行调用parse_table进行表解析 -- 只针对.java/.xml文件
 def scan(inner_path):
     if os.path.isdir(inner_path):
@@ -49,6 +51,7 @@ def parse_table(file_path):
                 line = file.readline()
 
 def print_exists_tables():
+    print(len(exists_tables))
     for exists_table in exists_tables:
         print(exists_table)
 

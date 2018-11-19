@@ -2,10 +2,7 @@ from bs4 import BeautifulSoup
 from urllib import request
 
 # 体积相关应用cat-dao调用数据 #
-domain_name = "logistics-service"
-start_date = "20181101"
-end_date = "20181201"
-
+mapper_set = set()
 
 def get_soup(url):
     req_result = request.urlopen(url);
@@ -17,12 +14,11 @@ def parser_soup(url):
     trs = soup.find_all("tr", class_=" right")
     for i in range(1, len(trs)):
         tds = trs[i].find_all("td")
-        tds_str = tds[1].text + "    " + tds[0].text[len("[:: show ::] "):].strip()
-        print(tds_str)
+        tds_str = tds[0].text[len("[:: show ::] "):].strip()
+        mapper_set.add(tds_str[0:tds_str.index(".")])
 
-def main():
+    return mapper_set
+
+def fetch_data(domain_name, start_date, end_date):
     url = "http://cat.qipeipu.net/cat/r/t?op=history&domain=" + domain_name + "&ip=All&reportType=month&type=DAO&sort=total&startDate=" + start_date + "&endDate=" + end_date
-    parser_soup(url)
-
-
-main()
+    return parser_soup(url)
