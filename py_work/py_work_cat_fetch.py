@@ -23,9 +23,9 @@ def fetch_data(domain_name, start_date, end_date):
     return parser_soup(url)
 
 def main():
-    url = "http://cat.qipeipu.net/cat/r/t?op=history&domain=logistics-service&ip=All&reportType=month&type=PigeonService&sort=total&startDate=20181101&endDate=20181201&queryname="
+    url = "http://cat.qipeipu.net/cat/r/t?op=history&domain=" + "logistics-api" + "&ip=All&reportType=month&type=DAO&sort=total&startDate=" + "20181101" + "&endDate=" + "20181201"
     mapper_set = parser_soup(url)
     for mapper in mapper_set:
         print(mapper)
 
-main()
+# main()

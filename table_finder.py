@@ -4,6 +4,7 @@ from py_work import py_work_cat_fetch, py_work_table_finder
 mapper_set = set()
 tables_set = set()
 exists_tables_set = set()
+goal_mapper_set = set()
 app_path = "/Users/zhuangjt/Documents/gitResource/logistics-service"
 
 def init():
@@ -23,10 +24,12 @@ def scan(inner_path):
 
 def parse_table(file_path):
     global exists_tables_set
+    global goal_mapper_set
     file_name = file_path[file_path.rindex("/") + 1 : len(file_path)]
     class_name = file_name[0:file_name.index(".")]
     for mapper in mapper_set:
         if not ("Test" in class_name) and (mapper in class_name):
+            goal_mapper_set.add(mapper)
             with open(file_path, "r") as file:
                 line = file.readline()
 
@@ -40,7 +43,11 @@ def parse_table(file_path):
 def main():
     init()
     scan(app_path)
+    print(len(mapper_set))
     print(len(exists_tables_set))
-    print(exists_tables_set)
+    print(len(goal_mapper_set))
+    print("-------------------")
+    for table in exists_tables_set:
+        print(table)
 
-main()
+# main()
