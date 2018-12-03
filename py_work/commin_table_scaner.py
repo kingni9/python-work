@@ -117,7 +117,6 @@ def scan(inner_path):
         if inner_path.endswith(".java") or inner_path.endswith(".xml"):
             parse_table(inner_path)
 
-# 扫描文件每一行(文件名包含关键字dao/provider/) -- 匹mapper配line是否包含tables中的表名
 def parse_table(file_path):
     file_name = file_path[file_path.rindex("/") + 1 : len(file_path)]
 
