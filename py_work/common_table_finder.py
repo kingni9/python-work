@@ -7,8 +7,8 @@ exists_tables = set()
 # 扫描的本地应用目录
 dir_paths = [
     "/Users/zhuangjt/Documents/gitResource/logistics-api",
-    # "/Users/zhuangjt/Documents/gitResource/logistics-service",
-    # "/Users/zhuangjt/Documents/gitResource/logistics-web"
+    "/Users/zhuangjt/Documents/gitResource/logistics-service",
+    "/Users/zhuangjt/Documents/gitResource/logistics-web"
     ]
 
 def load_table_form_local():
@@ -146,7 +146,7 @@ def parse_table(file_path):
             line = file.readline()
             while line:
                 for main_table in tables:
-                    if line.__contains__(main_table):
+                    if line.lower().__contains__(main_table.lower()):
                         exists_tables.add(main_table)
 
                 line = file.readline()

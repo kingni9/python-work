@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c95a6d82-8e1b-4b30-a965-32e1e8464fd1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/py_work/table_scaner.py" afterPath="$PROJECT_DIR$/py_work/commin_table_scaner.py" />
+      <change beforePath="$PROJECT_DIR$/py_work/commin_table_scaner.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/py_work/common_table_finder.py" afterPath="$PROJECT_DIR$/py_work/common_table_finder.py" />
+      <change beforePath="$PROJECT_DIR$/py_work/py_work_cat_fetch.py" afterPath="$PROJECT_DIR$/py_work/py_work_cat_fetch.py" />
+      <change beforePath="$PROJECT_DIR$/py_work/py_work_table.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/py_work/py_work_table_finder.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/table_finder.py" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,54 +20,30 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_main$py_work_matplotlib.coverage" NAME="py_work_matplotlib Coverage Results" MODIFIED="1531812574042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
-    <SUITE FILE_PATH="coverage/python_main$py_work_sql_parser.coverage" NAME="py_work_sql_parser Coverage Results" MODIFIED="1542080029034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
-    <SUITE FILE_PATH="coverage/python_main$common_table_finder.coverage" NAME="common_table_finder Coverage Results" MODIFIED="1543809290377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$common_table_finder.coverage" NAME="common_table_finder Coverage Results" MODIFIED="1543891572863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$test.coverage" NAME="test Coverage Results" MODIFIED="1531044348813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_main$py_work_file.coverage" NAME="py_work_file Coverage Results" MODIFIED="1541411566314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1531044426033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
-    <SUITE FILE_PATH="coverage/python_main$table_scaner.coverage" NAME="table_scaner Coverage Results" MODIFIED="1543544040019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
-    <SUITE FILE_PATH="coverage/python_main$py_work_cat_fetch.coverage" NAME="py_work_cat_fetch Coverage Results" MODIFIED="1543309388126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
-    <SUITE FILE_PATH="coverage/python_main$table_finder.coverage" NAME="table_finder Coverage Results" MODIFIED="1543309922509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_main$py_work_table_finder.coverage" NAME="py_work_table_finder Coverage Results" MODIFIED="1543482898609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
     <SUITE FILE_PATH="coverage/python_main$py_work_urllib.coverage" NAME="py_work_urllib Coverage Results" MODIFIED="1531570119414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$py_work_sql_parser.coverage" NAME="py_work_sql_parser Coverage Results" MODIFIED="1542080029034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$py_work_file.coverage" NAME="py_work_file Coverage Results" MODIFIED="1541411566314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$py_work_os.coverage" NAME="py_work_os Coverage Results" MODIFIED="1543911074801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$table_scaner.coverage" NAME="table_scaner Coverage Results" MODIFIED="1543544040019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$py_work_cat_fetch.coverage" NAME="py_work_cat_fetch Coverage Results" MODIFIED="1543917538219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
+    <SUITE FILE_PATH="coverage/python_main$table_finder.coverage" NAME="table_finder Coverage Results" MODIFIED="1543309922509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_main$py_work_table.coverage" NAME="py_work_table Coverage Results" MODIFIED="1543557014557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_work" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="py_work_table_finder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-                <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common_table_finder.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common_table_finder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_work/common_table_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="290">
               <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1543809290357" expanded="true" signature="3811:3868" ph="select TABLE... tables" />
-                <marker date="1543809290357" expanded="true" signature="3811:4047" ph="select TABLE... tables" />
+                <marker date="1543891561380" expanded="true" signature="3807:3864" ph="select TABLE... tables" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commin_table_scaner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_work/commin_table_scaner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +51,7 @@
       <file leaf-file-name="py_work_urllib.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1346">
+            <state relative-caret-position="1955">
               <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="25" />
               <folding />
             </state>
@@ -87,22 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="py_work_table.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_work/py_work_table.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-381">
-              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="py_work_sql_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_work/py_work_sql_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <marker date="1542080027154" expanded="true" signature="28:155" ph="INSERT INTO tms_biz_place... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,31 +83,31 @@
       <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5236">
+            <state relative-caret-position="325">
               <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="py_work_cat_fetch.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="py_work_cat_fetch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_work/py_work_cat_fetch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="322">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table_finder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/table_finder.py">
+      <file leaf-file-name="py_work_os.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_work/py_work_os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,7 +167,6 @@
         <option value="$PROJECT_DIR$/py_work/py_work_matplotlib.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_file.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_sql_parser.py" />
-        <option value="$PROJECT_DIR$/py_work/py_work_cat_fetch.py" />
         <option value="$PROJECT_DIR$/py_work/py_work_table_finder.py" />
         <option value="$PROJECT_DIR$/table_finder.py" />
         <option value="$PROJECT_DIR$/py_work/table_scaner.py" />
@@ -202,6 +174,8 @@
         <option value="$PROJECT_DIR$/py_work/table_finder.py" />
         <option value="$PROJECT_DIR$/py_work/commin_table_scaner.py" />
         <option value="$PROJECT_DIR$/py_work/common_table_finder.py" />
+        <option value="$PROJECT_DIR$/py_work/py_work_os.py" />
+        <option value="$PROJECT_DIR$/py_work/py_work_cat_fetch.py" />
       </list>
     </option>
   </component>
@@ -631,8 +605,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -650,6 +622,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -679,7 +653,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.common_table_finder">
+  <component name="RunManager" selected="Python.py_work_cat_fetch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -739,6 +713,44 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="py_work_cat_fetch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_cat_fetch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py_work_os" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_work" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_os.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="py_work_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -753,44 +765,6 @@
       <module name="python_main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_table.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="py_work_table_finder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_main" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_work/py_work_table_finder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="table_finder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_main" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/table_finder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -856,19 +830,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.table_finder" />
-      <item index="1" class="java.lang.String" itemvalue="Python.py_work_table_finder" />
-      <item index="2" class="java.lang.String" itemvalue="Python.py_work_table" />
-      <item index="3" class="java.lang.String" itemvalue="Python.table_scaner" />
-      <item index="4" class="java.lang.String" itemvalue="Python.common_table_finder" />
+      <item index="0" class="java.lang.String" itemvalue="Python.py_work_table" />
+      <item index="1" class="java.lang.String" itemvalue="Python.table_scaner" />
+      <item index="2" class="java.lang.String" itemvalue="Python.common_table_finder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.py_work_os" />
+      <item index="4" class="java.lang.String" itemvalue="Python.py_work_cat_fetch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.common_table_finder" />
-        <item index="1" class="java.lang.String" itemvalue="Python.py_work_table" />
-        <item index="2" class="java.lang.String" itemvalue="Python.table_scaner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.py_work_table_finder" />
-        <item index="4" class="java.lang.String" itemvalue="Python.table_finder" />
+        <item index="0" class="java.lang.String" itemvalue="Python.py_work_cat_fetch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.py_work_os" />
+        <item index="2" class="java.lang.String" itemvalue="Python.common_table_finder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.py_work_table" />
+        <item index="4" class="java.lang.String" itemvalue="Python.table_scaner" />
       </list>
     </recent_temporary>
   </component>
@@ -916,12 +890,17 @@
       <workItem from="1543308293378" duration="5401000" />
       <workItem from="1543389681712" duration="10942000" />
       <workItem from="1543479233023" duration="10606000" />
-      <workItem from="1543556986315" duration="6677000" />
+      <workItem from="1543556986315" duration="7491000" />
+      <workItem from="1543823602719" duration="585000" />
+      <workItem from="1543891453467" duration="5612000" />
+      <workItem from="1543914084983" duration="586000" />
+      <workItem from="1543916014689" duration="83000" />
+      <workItem from="1543916182779" duration="1354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122519000" />
+    <option name="totallyTimeSpent" value="131553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,6 +913,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -942,20 +922,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5938417" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245997" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22317597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7467811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4657933" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41193596" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -977,16 +957,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4657933" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41193596" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245997" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22317597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7467811" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1003,11 +983,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/py_work/py_work_table_finder.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/py_work/common_table_finder.py</url>
           <line>165</line>
           <option name="timeStamp" value="144" />
@@ -1020,18 +995,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="149" />
+      <option name="time" value="154" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/_sqlite3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12478">
@@ -1046,18 +1014,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -1072,18 +1029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -1098,18 +1044,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80495">
@@ -1117,18 +1052,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2017.3/python_stubs/-1199943127/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80495">
@@ -1136,18 +1060,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
     <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -1301,10 +1214,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_cat_fetch.py">
+    <entry file="file://$PROJECT_DIR$/py_work/commin_table_scaner.py" />
+    <entry file="file://$PROJECT_DIR$/table_finder.py" />
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py" />
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_table.py" />
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="1955">
+          <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1317,76 +1234,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_urllib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1346">
-          <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543482819119" expanded="true" signature="724:778" ph="select TABLE... tables" />
-            <marker date="1543482819119" expanded="true" signature="724:780" ph="select TABLE... tables" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/py_work_table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_work/py_work_sql_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/table_finder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="323">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1542080027154" expanded="true" signature="28:155" ph="INSERT INTO tms_biz_place... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_work/commin_table_scaner.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
+        <state relative-caret-position="325">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_work/common_table_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="290">
           <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1543809290357" expanded="true" signature="3811:3868" ph="select TABLE... tables" />
-            <marker date="1543809290357" expanded="true" signature="3811:4047" ph="select TABLE... tables" />
+            <marker date="1543891561380" expanded="true" signature="3807:3864" ph="select TABLE... tables" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_work/py_work_cat_fetch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
