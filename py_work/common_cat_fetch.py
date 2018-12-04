@@ -5,7 +5,6 @@ def get_soup(url):
     req_result = request.urlopen(url);
     return BeautifulSoup(req_result.read().decode("utf-8"), "html.parser")
 
-
 def main(domain, methods):
     method_to_app = {}
 
@@ -32,4 +31,4 @@ def main(domain, methods):
         print(str(key) + ":" + str(values))
 
 
-main("trade-service", ["DeliveryOrderUpdateService", "DeliveryOrderQueryService"])
+main("trade-service", ["DeliveryOrderUpdateService"])
