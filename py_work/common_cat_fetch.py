@@ -10,7 +10,7 @@ def main(domain, methods):
 
     if methods:
         for method in methods:
-            url = "http://cat.qipeipu.net/cat/r/cross?op=query&domain=" + domain + "&date=20181001&reportType=month&method=" + method
+            url = "http://cat.qipeipu.net/cat/r/cross?op=query&domain=" + domain + "&date=20181101&reportType=month&method=" + method
             soup = get_soup(url)
             trs = soup.find_all("tr", class_="right")
 
@@ -31,4 +31,4 @@ def main(domain, methods):
         print(str(key) + ":" + str(values))
 
 
-main("trade-service", ["DeliveryOrderUpdateService"])
+main("trade-service", ["LogisticsAddressQueryService"])
